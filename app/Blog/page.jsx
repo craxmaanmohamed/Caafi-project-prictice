@@ -1,12 +1,18 @@
 import React from 'react'
 import Image from 'next/image'
-export default function LatestNewsSection() {
+export default function page() {
   return (
-    <section class="py-10 bg-gray-100 sm:py-16 lg:py-24">
+   <>
+       <div className='bg-BlogBgImage rounded-b-3xl bg-cover bg-center h-72 flex justify-center items-center'>
+        <h1 className=' text-white font-extrabold text-8xl uppercase'>Blog List</h1>
+      </div>
+
+      {/* Blog List */}
+      <section class="py-10 bg-gray-100 sm:py-16 lg:py-24">
     <div class="px-4 mx-auto sm:px-6 lg:px-8 max-w-7xl">
         <div class="flex items-end justify-between">
             <div class="flex-1 text-center lg:text-left">
-                <h2 class="text-3xl font-bold leading-tight text-black sm:text-4xl lg:text-5xl">Latest from blog</h2>
+                <h2 class="text-3xl font-bold leading-tight text-black sm:text-4xl lg:text-5xl">blog Lists</h2>
             </div>
 
           
@@ -75,5 +81,6 @@ export default function LatestNewsSection() {
     </div>
 </section>
 
+   </>
   )
 }

@@ -1,5 +1,5 @@
 import React from 'react'
-
+import Image from 'next/image';
 import { FaFacebookSquare ,FaInstagram} from "react-icons/fa";
 export default function Footer() {
   return (
@@ -9,7 +9,7 @@ export default function Footer() {
           <div class="w-full -mx-6 lg:w-2/5">
             <div class="px-6">
               <a href="#">
-                <img class="w-auto h-7" src="/images/caafiLogoBlack.png" alt="" />
+                <Image width={100} height={100}  class="w-auto h-7" src="/images/caafiLogoBlack.png" alt="" />
               </a>
 
               <p class="max-w-sm mt-2 text-gray-500 dark:text-gray-400">Shirkadda biyaha CAAFI waxaa la aasaasay sanadkii 1999 waxaana lagu aasaasay caasimadda dalka ee magalada Muqdisho.</p>

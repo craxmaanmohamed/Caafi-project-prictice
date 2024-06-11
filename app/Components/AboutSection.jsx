@@ -1,5 +1,6 @@
 
 import React from 'react'
+import Image from 'next/image';
 import { FcAbout } from "react-icons/fc";
 export default function AboutSection() {
   return (
@@ -9,7 +10,7 @@ export default function AboutSection() {
     <div class="px-4 mx-auto sm:px-6 lg:px-8 max-w-7xl">
         <div class="grid items-center grid-cols-1 gap-y-8 lg:grid-cols-2 gap-x-16 xl:gap-x-24">
             <div class="relative mb-12">
-                <img class="w-full rounded-md" src='/images/aboutus.jpg' alt="" />
+                <Image width={100} height={100} class="w-full rounded-md" src='/images/aboutus.jpg' alt="" />
 
                 <div class="absolute w-full max-w-xs px-4 -translate-x-1/2 sm:px-0 sm:max-w-sm left-1/2 -bottom-12">
                     <div class="overflow-hidden bg-white rounded">

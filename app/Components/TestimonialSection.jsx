@@ -1,7 +1,6 @@
 import React from 'react'
 import { GrBlockQuote } from "react-icons/gr";
-
-
+import Image from 'next/image';
 export default function TestimonialSection() {
   return (
     <section id="testimonials" aria-label="What our customers are saying" class="bg-pr-sectionB1 bg-cover bg-center  py-8 sm:py-32">
@@ -25,7 +24,7 @@ export default function TestimonialSection() {
                     <div class="font-display text-base text-slate-900">Ahmed iise</div>
                   </div>
                   <div class="overflow-hidden rounded-full bg-slate-50">
-                    <img alt="" class="h-14 w-14 object-cover" src="/images/person3.jpg"/>
+                    <Image width={100} height={100} alt="" class="h-14 w-14 object-cover" src="/images/person3.jpg"/>
                   </div>
                 </figcaption>
               </figure>
@@ -46,7 +45,7 @@ export default function TestimonialSection() {
                     <div class="font-display text-base text-slate-900">Sahal Khaalid</div>
                   </div>
                   <div class="overflow-hidden rounded-full bg-slate-50">
-                    <img alt="" class="h-14 w-14 object-cover" src="/images/person2.jpg"/>
+                    <Image width={100} height={100} alt="" class="h-14 w-14 object-cover" src="/images/person2.jpg"/>
                   </div>
                 </figcaption>
               </figure>
@@ -67,7 +66,7 @@ export default function TestimonialSection() {
                     <div class="font-display text-base text-slate-900">Faarah cabdi</div>
                   </div>
                   <div class="overflow-hidden rounded-full bg-slate-50">
-                    <img alt="" class="h-14 w-14 object-cover" src="/images/person1.jpg"/>
+                    <Image width={100} height={100} alt="" class="h-14 w-14 object-cover" src="/images/person1.jpg"/>
                   </div>
                 </figcaption>
               </figure>

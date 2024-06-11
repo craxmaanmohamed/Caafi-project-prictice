@@ -2,7 +2,7 @@ import React from 'react'
 import { TbActivity } from "react-icons/tb";
 import { MdHighQuality } from "react-icons/md";
 import { GiFastNoodles } from "react-icons/gi";
-
+import Image from 'next/image';
 export default function WhyChooseUsSection() {
   return (
 <section class="overflow-hidden bg-white py-8 sm:py-16">
@@ -44,7 +44,7 @@ export default function WhyChooseUsSection() {
         
         </div>
       </div>
-      <img src="/images/SectionImg1.jpg" alt="Product screenshot" class="w-[48rem] lg:h-[550px] rounded-xl shadow-xl ring-1 ring-gray-400/10 sm:w-[57rem] md:-ml-4 lg:-ml-0"/>
+      <Image width={100} height={100} src="/images/SectionImg1.jpg" alt="Product screenshot" class="w-[48rem] lg:h-[550px] rounded-xl shadow-xl ring-1 ring-gray-400/10 sm:w-[57rem] md:-ml-4 lg:-ml-0"/>
     </div>
   </div>
 </section>

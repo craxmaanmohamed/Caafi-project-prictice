@@ -1,10 +1,11 @@
 "use client"
-import React, { useState,Link } from 'react';
+import React, { useState } from 'react';
+import Link from 'next/link';
 import { IoIosCall } from "react-icons/io";
 import { MdOutlineMailOutline } from "react-icons/md";
 import { FaFacebookSquare ,FaInstagram} from "react-icons/fa";
 import { FaSquareXTwitter ,FaSquareYoutube} from "react-icons/fa6";
-
+import Image from 'next/image';
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -31,7 +32,7 @@ const Header = () => {
 
       <div className="flex flex-wrap items-center justify-between gap-4 px-10 py-2 bg-white min-h-[70px]">
         <a href="#">
-          <img src="/images/caafiLogo.png" alt="logo" className="w-14 h-14" />
+          <Image width={100} height={100}  src="/images/caafiLogo.png" alt="logo" className="w-14 h-14" />
         </a>
 
 
@@ -47,19 +48,19 @@ const Header = () => {
 
             <ul className="lg:flex lg:h-14 lg:items-center  lg:gap-x-5 max-lg:space-y-3">
               <li className="max-lg:border-b max-lg:py-3 px-3">
-                <a href="#" className="hover:text-pr-color block font-bold text-[15px]">Home</a>
+                <Link href="/" className="hover:text-pr-color block font-bold text-[15px]">Home</Link>
               </li>
               <li className="max-lg:border-b max-lg:py-3 px-3">
-                <a href="#" className="hover:text-pr-color text-[#333] block font-bold text-[15px]">About</a>
+                <Link href="About" className="hover:text-pr-color text-[#333] block font-bold text-[15px]">About</Link>
               </li>
               <li className="max-lg:border-b max-lg:py-3 px-3">
-                <a href="#" className="hover:text-pr-color text-[#333] block font-bold text-[15px]">Services</a>
+                <Link href="Services" className="hover:text-pr-color text-[#333] block font-bold text-[15px]">Services</Link>
               </li>
               <li className="max-lg:border-b max-lg:py-3 px-3">
-                <a href="#" className="hover:text-pr-color text-[#333] block font-bold text-[15px]">Blog</a>
+                <Link href="Blog" className="hover:text-pr-color text-[#333] block font-bold text-[15px]">Blog</Link>
               </li>
               <li className="max-lg:border-b rounded-sm hover:bg-transparent border-2 transition-all duration-500 border-pr-color max-lg:py-3 px-3  bg-pr-color">
-                <a href="#" className="hover:text-pr-color text-white p-2 block font-bold text-[15px]">Contact</a>
+                <Link href="Contact" className="hover:text-pr-color text-white p-2 block font-bold text-[15px]">Contact</Link>
               </li>
             </ul>
           </div>
