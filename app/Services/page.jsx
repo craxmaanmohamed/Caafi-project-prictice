@@ -7,7 +7,7 @@ export default function page() {
     
     <>
       <div className='bg-ServiceBackround rounded-b-3xl  bg-cover bg-center h-72 flex justify-center items-center'>
-        <h1 className=' text-white font-extrabold text-8xl uppercase'>Service</h1>
+        <h1 className=' text-white font-extrabold text-6xl md:text-8xl uppercase'>Service</h1>
       </div>
     {/* services start */}
     <section class="py-10 bg-gray-50 sm:py-16 lg:py-24">

@@ -5,11 +5,12 @@ import { FaFacebookSquare, FaInstagram } from "react-icons/fa";
 import { FaSquareXTwitter, FaSquareYoutube } from "react-icons/fa6";
 import { CiLocationOn } from "react-icons/ci";
 
+
 export default function page() {
   return (
     <>
       <div className='bg-contactBgImage rounded-b-3xl bg-cover bg-center h-72 flex justify-center items-center'>
-        <h1 className=' text-white font-extrabold text-8xl uppercase'>contact Us</h1>
+        <h1 className=' text-white font-extrabold text-5xl md:text-8xl uppercase'>contact Us</h1>
       </div>
       {/* Contact start */}
       <section class="mt-10 min-h-screen bg-gray-50 ">

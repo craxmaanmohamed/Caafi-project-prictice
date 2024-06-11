@@ -4,7 +4,7 @@ export default function page() {
   return (
    <>
        <div className='bg-BlogBgImage rounded-b-3xl bg-cover bg-center h-72 flex justify-center items-center'>
-        <h1 className=' text-white font-extrabold text-8xl uppercase'>Blog List</h1>
+        <h1 className=' text-white font-extrabold text-6xl md:text-8xl uppercase'>Blog List</h1>
       </div>
 
       {/* Blog List */}

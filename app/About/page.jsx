@@ -13,7 +13,7 @@ export default function page() {
   return (
     <>
       <div className='bg-AboutBackround rounded-b-3xl bg-cover bg-center h-72 flex justify-center items-center'>
-        <h1 className=' text-white font-extrabold text-8xl uppercase'>About Us</h1>
+        <h1 className=' text-white font-extrabold text-6xl uppercase  md:text-8xl'>About Us</h1>
       </div>
       {/* About start */}
       <section class="py-10  bg-gray-100 sm:py-16 lg:py-24">
