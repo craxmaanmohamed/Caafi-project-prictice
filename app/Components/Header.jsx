@@ -33,7 +33,7 @@ const Header = () => {
       </section>
 
       <div className="flex flex-wrap items-center justify-between gap-4 px-10 py-2 bg-white min-h-[70px]">
-        <a href="#">
+        <a href="/">
           <Image width={100} height={100}  src="/images/caafiLogo.png" alt="logo" className="w-14 h-14" />
         </a>
 
